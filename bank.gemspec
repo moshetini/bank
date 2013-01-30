@@ -1,6 +1,4 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/bank/version', __FILE__)
-
 Gem::Specification.new do |gem|
   gem.authors       = ["Moshe Tini"]
   gem.email         = ["moshe.tini@conduit.com"]
@@ -13,7 +11,6 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "bank"
   gem.require_paths = ["lib"]
-  gem.version       = Bank::VERSION
   gem.add_development_dependency('rdoc')
   gem.add_development_dependency('aruba')
   gem.add_development_dependency('rake', '~> 0.9.2')
